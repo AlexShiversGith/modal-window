@@ -99,13 +99,11 @@ function App() {
         >
           <Button 
             className='secondaryButton'
-            setIsModalOpen={setIsModalOpen}
             children='Cancel'
             onClick={() => toggleModal(false)}
           />
           <Button 
             className='primaryButton'
-            setIsModalOpen={setIsModalOpen}
             children='Yes, Continue'
             onClick={() => {
                     alert("Ok");
